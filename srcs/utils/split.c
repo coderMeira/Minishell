@@ -79,7 +79,7 @@ static int	split_str(const char *str, char c, int x, char **tmp)
 	i = x;
 	j = 0;
 	quotes = 0;
-	*tmp = malloc(sizeof(char) * str_size(str, c) + 2);
+	*tmp = malloc(sizeof(char) * str_size(str, c) + 1);
 	while (str[i])
 	{
 		if (str[i] == '"' || str[i] == '\'')
@@ -115,7 +115,7 @@ void	split(char const *str, char c, t_cmd *d)
 	{
 		i = split_str(str, c, i, &tmp);
 		also_tmp = tmp;
-		tmp = ft_strtrim(also_tmp, " ");
+		tmp = ft_strtrim(tmp, " ");
 		d->cmdline[d->i] = ft_strdup(tmp);
 		d->i++;
 		if (d->i != x - 1)

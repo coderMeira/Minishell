@@ -6,7 +6,7 @@
 /*   By: fmeira <fmeira@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/30 19:02:56 by fmeira            #+#    #+#             */
-/*   Updated: 2022/01/25 20:00:09 by fmeira           ###   ########.fr       */
+/*   Updated: 2022/01/02 19:47:54 by fmeira           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,6 @@ static void	data_init(t_data *d)
 	d->fd.heredoc_count = 0;
 	d->fd.heredoc_fd = 0;
 	g_g.child = 0;
-	g_g.echo = 0;
 }
 
 static int	skip_spaces_get_cmd(char **str)
