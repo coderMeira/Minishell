@@ -12,8 +12,8 @@ In this very simple version, some of the features of a shell were implemented as
 The main goal is to have a good understanding of processes and learn more about file descriptors.
 
 ##### Development team:
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Roman](https://github.com/romanbtt) - robitett\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Vitoria](https://github.com/vscabell) - vscabell
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fred](https://github.com/coderMeira) - fmeira
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Arsénio](https://github.com/RealMadnessWorld) - jarsenio
 
 ## Usage
 
