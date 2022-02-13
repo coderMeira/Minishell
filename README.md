@@ -20,8 +20,8 @@ The main goal is to have a good understanding of processes and learn more about 
 #### Build Instructions
 
 ```bash
-$ git clone https://github.com/vscabell/minishell
-$ cd minishell
+$ git clone https://github.com/coderMeira/Minishell/
+$ cd Minishell
 $ make
 $ ./minishell
 ```
