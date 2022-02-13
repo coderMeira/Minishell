@@ -47,8 +47,7 @@ $ ./minishell
 - Environment variables (`$` followed by characters)
 - Simple quotes `'` and double quotes `"` should work like in bash
 - Escape special chars with `\`
-- Multiples commands separated with semicolon `;`
-- Pipes `|` (except for multiline commands)
+- Pipes `|`
 - Redirections `<`, `>`, `>>`
 - `ctrl-C`, `ctrl-D` and `ctrl-\` signals must be handled
 - `$?` it should work like in bash.
